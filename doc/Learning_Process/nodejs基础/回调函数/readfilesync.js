@@ -1,0 +1,5 @@
+// nodejs也提供同步读取文件的API
+var fs = require("fs");
+var data = fs.readFileSync("file.txt", "utf-8");
+console.log(data);
+console.log("end");
