@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Roboto.css" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@ohif/viewer@4.5.17/dist/index.umd.js"></script>
+  </head>
+  <body>
+    <div id="id-of-div-to-render-component-to"></div>
+
+    <script>
+      // Set before importing `ohif-viewer` (JS Object)
+      window.config = {
+        // default: '/'
+        routerBasename: "/",
+        servers: {
+          dicomWeb: [
+            {
+              name: "DCM4CHEE",
+              wadoUriRoot:
+                "https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/wado",
+              qidoRoot:
+                "https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs",
+              wadoRoot:
+                "https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs",
+              qidoSupportsIncludeField: true,
+              imageRendering: "wadors",
+              thumbnailRendering: "wadors",
+            },
+          ],
+        },
+      };
+      // Made available by the `@ohif/viewer` script included in step 1
+      var containerId = "id-of-div-to-render-component-to";
+      var componentRenderedOrUpdatedCallback = function () {
+        console.log("OHIF Viewer rendered/updated");
+      };
+      window.OHIFViewer.installViewer(
+        window.config,
+        containerId,
+        componentRenderedOrUpdatedCallback
+      );
+    </script>
+  </body>
+</html>
