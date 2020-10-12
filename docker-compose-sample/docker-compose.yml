@@ -1,6 +1,5 @@
-version: '3.6'
+version: "3.6"
 services:
-
   viewer:
     image: ohif/viewer:v3.7.1.10058
     container_name: viewer
@@ -8,7 +7,7 @@ services:
       - orthanc
     restart: always
     ports:
-      - '80:80'
+      - "1111:1111"
     networks:
       - frontend
       - backend

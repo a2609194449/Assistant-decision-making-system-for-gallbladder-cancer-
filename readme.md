@@ -59,4 +59,18 @@
    </html>
    ```
 
-2. node
+2. docker-compose-sample:
+
+   ```bash
+   docker-compose up
+   ```
+
+   ![image-20201012140013994](readme.assets/image-20201012140013994.png)
+
+```bash
+ls -l
+```
+
+![image-20201012140039978](readme.assets/image-20201012140039978.png)
+
+没有.env环境变量文件,之前用宝塔linux上传
