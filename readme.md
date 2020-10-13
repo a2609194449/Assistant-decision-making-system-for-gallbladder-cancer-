@@ -73,4 +73,4 @@ ls -l
 
 ![image-20201012140039978](readme.assets/image-20201012140039978.png)
 
-没有.env环境变量文件,之前用宝塔linux上传
+没有.env环境变量文件,之前用宝塔linux上传,宝塔linux它不给我传
