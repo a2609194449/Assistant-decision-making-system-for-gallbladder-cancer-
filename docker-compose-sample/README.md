@@ -44,3 +44,21 @@ docker network prune -f
 # remove local persisting data of the volumes
 rm -rf orthanc_db pg_data
 ```
+
+操作过程:
+
+docker-compose-sample:
+
+```bash
+docker-compose up
+```
+
+![image-20201012140013994](README.assets/image-20201012140013994.png)
+
+```bash
+ls -l
+```
+
+![image-20201012140039978](README.assets/image-20201012140039978.png)
+
+没有.env环境变量文件,之前用宝塔linux上传,宝塔linux它不给我传
