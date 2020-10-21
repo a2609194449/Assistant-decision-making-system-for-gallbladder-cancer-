@@ -6,11 +6,23 @@ npm i react-viewerbase --save-exact
 
 // with yarn
 yarn add react-viewerbase --exact
+
+```
+
+新版本的react-viewerbase:
+
+```bash
+//with npm 
+npm i @ohif/ui --save-exact
+//with yarn
+yarn add @ohif/ui --exact
 ```
 
 ### Usage
 
-```
+**使用的是react语法模式,render()方法返回UI组件**
+
+```javascript
 import React, { Component } from 'react';
 import { LayoutButton } from 'react-viewerbase';
 
@@ -26,7 +38,6 @@ class Example extends Component {
       },
     };
   }
-
   render() {
     return (
       <LayoutButton
@@ -37,4 +48,8 @@ class Example extends Component {
   }
 }
 ```
+
+### 
+
+
 

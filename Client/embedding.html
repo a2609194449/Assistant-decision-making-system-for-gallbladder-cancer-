@@ -9,7 +9,9 @@
     <script src="https://unpkg.com/@ohif/viewer@4.5.17/dist/index.umd.js"></script>
   </head>
   <body>
-    <div id="id-of-div-to-render-component-to"></div>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+
+    <div id="target"></div>
 
     <script>
       // Set before importing `ohif-viewer` (JS Object)
@@ -34,7 +36,7 @@
         },
       };
       // Made available by the `@ohif/viewer` script included in step 1
-      var containerId = "id-of-div-to-render-component-to";
+      var containerId = "target";
       var componentRenderedOrUpdatedCallback = function () {
         console.log("OHIF Viewer rendered/updated");
       };
