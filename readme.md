@@ -15,9 +15,25 @@
 
 
 
+### 部署
+
+
+
+
+
+### 开发
+
+
+
+
+
+
+
+
+
 ### 贡献者
 
-<table><td align="center"><a href="https://github.com/ajn404"><img src="https://avatars3.githubusercontent.com/u/61446750?s=460&u=c32cc98122a07c58f0610d26d34234045bb94854&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>ajn404</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/dc-97"><img src="https://avatars2.githubusercontent.com/u/73149007?s=460&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>dc-97</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance">🚧</a></td></table>
+<table><td align="center"><a href="https://github.com/ajn404"><img src="https://avatars3.githubusercontent.com/u/61446750?s=460&u=c32cc98122a07c58f0610d26d34234045bb94854&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>ajn404</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/dc-97"><img src="https://avatars2.githubusercontent.com/u/73149007?s=460&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>dc-97</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance"></a></td></table>
 
 ### 如何贡献?
 
@@ -62,3 +78,10 @@
 - 有什么不懂的可以在issues里讨论
 - git command --help也不失为良策
 
+
+
+
+
+### 许可证
+
+**MIT**
