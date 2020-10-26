@@ -15,19 +15,66 @@
 
 
 
-### 部署
-
-
-
-
-
 ### 开发
 
+#### 先决条件
+
+1. docker  用于本地运行Orthanc,viewer中yarn run dev:orthanc
+
+   例如运行命令
+
+   ```
+   docker run -p 4242:4242 -p 8042:8042 --rm jodogne/orthanc
+   ```
+
+   将orthanc映射至本地4242或者8042端口,打开http://127.0.0.1:4242/
+
+2. node npm最好配置国内镜像源
+
+   例如
+
+   ```bash
+   npm config set registry https://registry.npm.taobao.org
+    
+   // 配置后可通过下面方式来验证是否成功
+   npm config get registry
+   ```
+
+   之后就可以前端(成员)就可以照着文档改改语言,配色,工具列表等
+
+   ![image-20201027004012451](readme.assets/image-20201027004012451.png)
+
+### 部署
+
+我这里暂时只有一个小方案,在==根目录/docker-compose-sample==
+
+启动
+
+```
+docker -compose up
+```
+
+依赖:
+
+- nginx.conf
+
+- orthanc.json
+
+- viewer.js
+
+  注:
+
+  之后我们如果能够自己publish到docker hub上自己适配后的代码,改掉viewer.js就可以很容易地部署了
 
 
 
 
 
+### 测试
+
+
+
+### Bug log
 
 
 
@@ -36,6 +83,12 @@
 <table><td align="center"><a href="https://github.com/ajn404"><img src="https://avatars3.githubusercontent.com/u/61446750?s=460&u=c32cc98122a07c58f0610d26d34234045bb94854&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>ajn404</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/dc-97"><img src="https://avatars2.githubusercontent.com/u/73149007?s=460&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>dc-97</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance"></a></td></table>
 
 ### 如何贡献?
+
+
+
+
+
+
 
 **git分支操作流程如下:**
 
@@ -80,7 +133,9 @@
 
 
 
+### embedded examples
 
+https://tprch.csb.app/
 
 ### 许可证
 
