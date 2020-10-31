@@ -25,11 +25,15 @@
 
   vscode容易上手,扩展多,支持语言也多
 
-- 编译Orthanc源码,使用cmake,注意Orthanc官方下载的源码解压后会有很多没有类型的文件,没有类型是因为没有写后缀,重命名后加后缀.md,用typra(或者直接用vscode,有markdown文件预览插件)打开,这样就能得到详细的说明文件
+- 编译Orthanc源码,
 
-关于cmake,下载https://cmake.org/download/了解https://www.jianshu.com/p/bbf68f9ddffa
+  1.使用cmake,注意Orthanc官方下载的源码解压后会有很多没有类型的文件,没有类型是因为没有写后缀,重命名后加后缀.md,用typra(或者直接用vscode,有markdown文件预览插件)打开,这样就能得到详细的说明文件
 
-- 
+  关于cmake,下载https://cmake.org/download/了解https://www.jianshu.com/p/bbf68f9ddffa
+
+  2.如果是Windows可以直接在官网上下载[orthanc](https://www.orthanc-server.com/download-windows.php)
+
+- 下载git,chrome(推荐使用,不过你说你要是用firefox也行),python(增加后台图像算法用例,推荐使用python3,虽然咱也不怎么会算法,甚至后台的逻辑咱暂时也没有想明白)
 
 
 
@@ -96,7 +100,8 @@ docker -compose up
 
 ### 贡献者
 
-<table><td align="center"><a href="https://github.com/ajn404"><img src="https://avatars3.githubusercontent.com/u/61446750?s=460&u=c32cc98122a07c58f0610d26d34234045bb94854&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>ajn404</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/dc-97"><img src="https://avatars2.githubusercontent.com/u/73149007?s=460&v=4" width="100px;" alt="Erik Ziegler"/><br /><sub><b>dc-97</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance"></a></td></table>
+<table><td align="center"><a href="https://github.com/ajn404"><img src="https://avatars3.githubusercontent.com/u/61446750?s=460&u=c32cc98122a07c58f0610d26d34234045bb94854&v=4" width="100px;" alt="辉岳"/><br /><sub><b>ajn404</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/dc-97"><img src="https://avatars2.githubusercontent.com/u/73149007?s=460&v=4" width="100px;" alt="dc-97"/><br /><sub><b>dc-97</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance"></a></td>
+    <td align="center"><a href="https://github.com/dc-97"><img src="https://avatars1.githubusercontent.com/u/45917384?s=460&v=4" width="100px;" alt="DouWeiBa"/><br /><sub><b>DouWeiba</b></sub></a><br /><a href="https://github.com/OHIF/react-viewerbase/commits?author=swederik" title="Code">💻</a> <a href="#maintenance-swederik" title="Maintenance"></a></td></table>
 
 ### 如何贡献?
 
