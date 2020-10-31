@@ -19,6 +19,22 @@
 
 #### 先决条件
 
+**工具篇**
+
+- 首先你需要一个编辑器,推荐使用vscode,下载地址https://code.visualstudio.com/
+
+  vscode容易上手,扩展多,支持语言也多
+
+- 编译Orthanc源码,使用cmake,注意Orthanc官方下载的源码解压后会有很多没有类型的文件,没有类型是因为没有写后缀,重命名后加后缀.md,用typra(或者直接用vscode,有markdown文件预览插件)打开,这样就能得到详细的说明文件
+
+关于cmake,下载https://cmake.org/download/了解https://www.jianshu.com/p/bbf68f9ddffa
+
+- 
+
+
+
+**命令篇**
+
 1. docker  用于本地运行Orthanc,viewer中yarn run dev:orthanc
 
    例如运行命令
@@ -40,7 +56,7 @@
    npm config get registry
    ```
 
-   之后就可以前端(成员)就可以照着文档改改语言,配色,工具列表等
+   之后就可以前端(成员)就可以照着[文档](https://docs.ohif.org/development/testing.html)改改语言,配色,工具列表等
 
    ![image-20201027004012451](readme.assets/image-20201027004012451.png)
 
@@ -140,3 +156,4 @@ https://tprch.csb.app/
 ### 许可证
 
 **MIT**
+
