@@ -33,9 +33,7 @@
 
   2.如果是Windows可以直接在官网上下载[orthanc](https://www.orthanc-server.com/download-windows.php)
 
-- 下载git,chrome(推荐使用,不过你说你要是用firefox也行),python(增加后台图像算法用例,推荐使用python3,虽然咱也不怎么会算法,甚至后台的逻辑咱暂时也没有想明白)
-
-
+- 下载git,chrome(推荐使用,不过你说你要是用firefox也行),python(增加后台图像算法用例,推荐使用python3,虽然咱也不怎么会算法,甚至后台的逻辑咱暂时也没有想明白),node(因为要是npm下载包)
 
 **命令篇**
 
@@ -62,6 +60,8 @@
 
    之后就可以前端(成员)就可以照着[文档](https://docs.ohif.org/development/testing.html)改改语言,配色,工具列表等
 
+   viewer[官方文档](https://avatars1.githubusercontent.com/u/45917384?s=460&v=4)
+   
    ![image-20201027004012451](readme.assets/image-20201027004012451.png)
 
 ### 部署
