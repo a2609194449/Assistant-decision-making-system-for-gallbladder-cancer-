@@ -92,9 +92,11 @@ docker -compose up
 
 ### 测试
 
-
+[端到端测试使用cyoress](https://www.cypress.io/)
 
 ### Bug log
+
+见issues
 
 
 
