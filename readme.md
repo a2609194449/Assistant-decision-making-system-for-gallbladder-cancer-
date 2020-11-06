@@ -37,6 +37,10 @@
 
 **命令篇**
 
+
+
+ceshi
+
 1. docker  用于本地运行Orthanc,viewer中yarn run dev:orthanc
 
    例如运行命令
